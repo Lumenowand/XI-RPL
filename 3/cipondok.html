@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Wisata</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+ 
+<header>
+  <h2>Subang</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="capolaga.html">Capolaga</a></li>
+      <li><a href="chr.html">CHR</a></li>
+      <li><a href="castello.html">D'Castello</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Curug Cipondok</h1>
+    <img src="cipondok.webp" width="500px">
+    <p>Curug Cipondok adalah sebuah air terjun yang berada di desa Nagrak, Ciater. Curug ini diminati para wisatawan karena warna airnya yang biru.</p>
+    <p>Untuk persoalan biaya, Harga Tiket Masuk ke curug ini adalah Rp 10.000 dan tiket parkit motor senilai Rp 5.000. Harga yang terjangkau untuk mendapatkan view curug yang indah</p>
+    <p>Meskipun masih terbilang baru dan masih dalam tahap pembangunan, beberapa fasilitas vital telah pengelola wisata sediakan. Di antaranya ada area parkir untuk motor maupun mobil, toilet, kamar ganti, hingga tempat duduk di dekat air terjun. Bahkan tersedia tempat duduk di tengah aliran sungai kecil yang mengalir dari air terjun. Sobat Djava bisa duduk santai di sana sembari menikmati pesona air terjun dan pepohonan yang rindang.
+      Jika lapar,wisatawan bisa mendatangi warung makan yang kini telah tersedia di area wisatanya. Warung di Curug Cipondok Ciater Subang ini menyediakan makanan hangat yang cocok untuk Anda santap setelah bermain air. Salah satunya adalah bakso! Ada bakso mercon, bakso cincang, bakso urat, dan bakso telur dengan ukuran reguler dan jumbo. Harganya juga relatif terjangkau dengan rentang harga Rp15.000-Rp20.000 per porsinya.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>

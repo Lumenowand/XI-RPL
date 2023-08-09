@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Wisata</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+ 
+<header>
+  <h2>Subang</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="cipondok.html">Cipondok</a></li>
+      <li><a href="capolaga.html">Capolaga</a></li>
+      <li><a href="chr.html">CHR</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>D'Castello</h1>
+    <img src="castello.png" width="500px">
+   <p>Tempat wisata D'Castello Ciater mengusung konsep layaknya kerajaan yang terinspirasi dari culture Turki dan Belanda.
+
+    Terdapat banyak gedung layaknya bangunan kastil di tempat ini, dan terlihat colorful, seperti warna merah, biru, kuning, dan campuran warna cerah lainnya.
+    
+    Taman wisata yang rilis sejak tahun 2021 lalu ini juga menghadirkan keindahan ragam bunga warna-warni yang cantik dan air mancur.
+    
+    Bahkan, area duduk dan beristirahatnya pun tampak sangat berwarna, seperti berada di istana dongeng anak-anak.
+
+    Menikmati pemandangan yang indah serta berfoto di berbagai spot menarik di D'Castello Ciater tentu saja tidak gratis.
+
+    Namun Anda tidak perlu khawatir, karena harga tiket masuk Taman Flora Wisata D'Castello Ciater cukup terjangkau yaitu sekitar Rp30 ribu untuk hari weekdays (Senin-Jumat) dan Rp40 ribu untuk weekend (Sabtu-Minggu) dan hari libur nasional.
+    
+    Kawasan wisata D'Castello tidak hanya menyediakan spot foto menarik saja, Anda bisa mencoba berbagai kegiatan lainnya. Mulai dari kulineran hingga bermain di wahana permainan yang pasti seru dan menyenangkan.
+    </p>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
